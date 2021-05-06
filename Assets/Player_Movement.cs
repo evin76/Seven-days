@@ -8,10 +8,17 @@ public class Player_Movement : MonoBehaviour
 
     public Rigidbody2D rb;
     public Animator animator;
-
+    private Inventory inventory;
     Vector2 movement;
-
+    [SerializeField] private UI_Inventory uiInventory;
     // Update is called once per frame
+
+    private void Awake()
+    {
+        inventory = new Inventory();
+        uiInventory.SetInventory(inventory);
+    }
+
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
