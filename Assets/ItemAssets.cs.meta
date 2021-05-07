@@ -1,9 +1,13 @@
 fileFormatVersion: 2
-guid: 4143d7153148a8846afc75f5d825d19e
+guid: e587f0d680846f642aa2f18ef06c77f9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - pfItemWorld: {fileID: 7464434247351525258, guid: 3a50d24e4b089384b9a7260407f7f632,
+      type: 3}
+  - FlashlightSprite: {instanceID: 0}
+  - MedicalKitSprite: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
