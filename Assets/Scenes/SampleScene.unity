@@ -213,7 +213,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 79d971cc10f4df74b8d2b3097f903847, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0cc56482bf33fb847914304a32628fb6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -574,8 +574,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pfItemWorld: {fileID: 7464434247351525258, guid: 3a50d24e4b089384b9a7260407f7f632,
     type: 3}
-  FlashlightSprite: {fileID: 21300000, guid: 191e4665750ac094ca4d253680548eaf, type: 3}
-  MedicalKitSprite: {fileID: 21300000, guid: 79d971cc10f4df74b8d2b3097f903847, type: 3}
+  FlashlightSprite: {fileID: 21300000, guid: bec39eb6dacdedb45ae6406e4264ddf3, type: 3}
+  MedicalKitSprite: {fileID: 21300000, guid: 0cc56482bf33fb847914304a32628fb6, type: 3}
 --- !u!4 &837241470
 Transform:
   m_ObjectHideFlags: 0
@@ -1368,6 +1368,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7464434247351525259, guid: 3a50d24e4b089384b9a7260407f7f632,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0cc56482bf33fb847914304a32628fb6,
+        type: 3}
     - target: {fileID: 7464434247351525261, guid: 3a50d24e4b089384b9a7260407f7f632,
         type: 3}
       propertyPath: m_Name
