@@ -2,8 +2,9 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <CscToolPath>D:\Program Files (x86)\Unity\2019.4.20f1\Editor\Data\Tools\RoslynScripts</CscToolPath>
-    <CscToolExe>unity_csc.bat</CscToolExe>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -11,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2C69DC6E-F22A-C65E-D1C1-41FED8F24640}</ProjectGuid>
+    <ProjectGuid>{8E44E798-14B6-FD3A-EF68-2D5BE7E7F0BE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -29,6 +30,7 @@
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -38,6 +40,7 @@
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -55,9 +58,92 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Inventory.cs" />
+     <Compile Include="Assets\Item.cs" />
+     <Compile Include="Assets\ItemAssets.cs" />
+     <Compile Include="Assets\ItemWorld.cs" />
      <Compile Include="Assets\Player_Movement.cs" />
- <Reference Include="UnityEngine">
- <HintPath>D:/Program Files (x86)/Unity/2019.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     <Compile Include="Assets\UI_Inventory.cs" />
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Runtime">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.PixelPerfect.Editor">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.SpriteShape.Editor">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Path.Editor">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="PsdPlugin">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Psdimporter.Editor">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEngineBridge.001">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Runtime">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Editor">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.SpriteShape.Runtime">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.PixelPerfect">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Editor">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Editor">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.001">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/Program Files (x86)/Seven-days/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/Program Files (x86)/Unity/2019.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -235,9 +321,6 @@
  </Reference>
  <Reference Include="UnityEngine.XRModule">
  <HintPath>D:/Program Files (x86)/Unity/2019.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor">
- <HintPath>D:/Program Files (x86)/Unity/2019.4.20f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>D:/Program Files (x86)/Unity/2019.4.20f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -584,89 +667,6 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>D:/Program Files (x86)/Unity/2019.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Animation.Runtime">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.PixelPerfect.Editor">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.SpriteShape.Editor">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Path.Editor">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Animation.Triangle.Runtime">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="PsdPlugin">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
- </Reference>
- <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Mathematics">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Psdimporter.Editor">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.InternalAPIEngineBridge.001">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Common.Runtime">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.SpriteShape.Runtime">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.PixelPerfect">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Animation.Editor">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Mathematics.Editor">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Common.Editor">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.InternalAPIEditorBridge.001">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Admin/Downloads/7days-20210418T180855Z-001/7days/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
-  </ItemGroup>
-  <ItemGroup>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

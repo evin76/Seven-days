@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design.Serialization;
 using UnityEngine;
 
 public class Player_Movement : MonoBehaviour
@@ -20,6 +21,7 @@ public class Player_Movement : MonoBehaviour
 
         ItemWorld.SpawnItemWorld(new Vector3(20, 20), new Item { itemType = Item.ItemType.MedicalKit, amount = 1 });
         ItemWorld.SpawnItemWorld(new Vector3(0, 0), new Item { itemType = Item.ItemType.Flashlight, amount = 1 });
+        ItemWorld.SpawnItemWorld(new Vector3(10, 0), new Item { itemType = Item.ItemType.Flashlight, amount = 1 });
     }
 
     void Update()
@@ -31,7 +33,7 @@ public class Player_Movement : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
     }
-
+    
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
