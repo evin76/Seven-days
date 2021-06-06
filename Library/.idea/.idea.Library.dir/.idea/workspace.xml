@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a39edc14-c420-44c7-94d0-288a6caad361" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artifacts/15/157e662adb8f18afd0027c1714e1822a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artifacts/1b/1b1961746062d3461b4c984ccbc85979" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artifacts/2b/2b22a95428f28d4b1e09fbd80dd9e102" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artifacts/3a/3a935070281b54048525b9904b2dc62e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artifacts/5b/5bc3a8041a591fe9288311c646ff2df3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artifacts/69/69491faf00340b4e7da1a8e83cf57634" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artifacts/9e/9e9e8c6dec0b3a1f9ecabc4052f01344" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artifacts/c6/c60a9d492535072aaf1a96c4720eab3f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artifacts/e6/e65148c37b5095ec4f61db825fc547de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artifacts/f3/f37056ba545e4a0a69be82f885f52ad1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrentMaximizeLayout.dwlt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Seven-days.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../Seven-days.sln" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/CurrentLayout-default.dwlt" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1sqngatz6gOKGYoGulYmL5NeNzw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a39edc14-c420-44c7-94d0-288a6caad361" name="Default Changelist" comment="" />
+      <created>1621609123104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621609123104</updated>
+      <workItem from="1621609158599" duration="763000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
