@@ -11,6 +11,8 @@ public class Dialogue : MonoBehaviour
     public bool dialogueActive;
     private Player_Movement player;
     public bool flag = false;
+    public GameObject leftClick;
+    public GameObject rightClick;
 
     private void Update()
     {
@@ -24,6 +26,8 @@ public class Dialogue : MonoBehaviour
             dBox.SetActive(false);
             dialogueActive = false;
             flag = true;
+            leftClick.SetActive(true);
+            rightClick.SetActive(false);
         }
     }
 
@@ -34,5 +38,17 @@ public class Dialogue : MonoBehaviour
         dBox.SetActive(true);
         dText.text = dialogue;
         flag = false;
+        leftClick.SetActive(false);
+        rightClick.SetActive(true);
+    }
+
+    public void HideBox(string dialogue)
+    {
+        dialogueActive = false;
+        dBox.SetActive(false);
+        dText.text = dialogue;
+        flag = false;
+        leftClick.SetActive(true);
+        rightClick.SetActive(false);
     }
 }

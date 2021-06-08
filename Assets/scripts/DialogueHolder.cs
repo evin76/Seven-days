@@ -17,9 +17,13 @@ public class DialogueHolder : MonoBehaviour
     {
         if (other.gameObject.name == "Player")
         {
-            if (Input.GetKeyUp(KeyCode.Space))
+            if (Input.GetMouseButtonDown(0))
             {
                 manager.ShowBox(dialogue);
+            }
+            else if(Input.GetMouseButtonDown(1))
+            {
+                manager.HideBox(dialogue);
             }
         }
     }

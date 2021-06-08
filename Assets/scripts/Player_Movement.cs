@@ -19,6 +19,8 @@ public class Player_Movement : MonoBehaviour
     [SerializeField] private LayerMask water;
     [SerializeField] private int health;
     [SerializeField] private Text healthAmount;
+
+    public GameObject aftermath;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -31,29 +33,35 @@ public class Player_Movement : MonoBehaviour
     void Update()
     {
         Move();
-
         if (collider.IsTouchingLayers(water))
         {
-            Debug.Log("Touching");
+            manager.leftClick.SetActive(true);
+            if (manager.rightClick.activeSelf)
+            {
+                manager.leftClick.SetActive(false);
+            }
             if (manager.flag)
             {
                 Health();
             }
-
             manager.flag = false;
         }
+        else
+        {
+            manager.leftClick.SetActive(false);
+        }
     }
-
     private void Health()
     {
         health--;
         healthAmount.text = health.ToString();
         if (health <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            aftermath.SetActive(true);
         }
     }
 
+    
     private void Move()
     {
         movement.x = Input.GetAxisRaw("Horizontal");

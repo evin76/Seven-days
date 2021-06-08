@@ -73,6 +73,7 @@
      <Compile Include="Assets\scripts\DialogueHolder.cs" />
      <Compile Include="Assets\scripts\Player_Movement.cs" />
      <Compile Include="Assets\scripts\PopUpSystem.cs" />
+     <Compile Include="Assets\scripts\TaskOnClick.cs" />
      <Compile Include="Assets\scripts\WaterActions.cs" />
      <None Include="Assets\Terrain Tile Hex Samples\readme_tile_hex_samples.txt" />
  <Reference Include="Unity.Timeline.Editor">
