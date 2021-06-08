@@ -42,7 +42,11 @@ public class Player_Movement : MonoBehaviour
             }
             if (manager.flag)
             {
-                Health();
+                if (manager.drankSaltyWater == 3)
+                {
+                    health --;
+                    Health();
+                }
             }
             manager.flag = false;
         }
@@ -53,12 +57,12 @@ public class Player_Movement : MonoBehaviour
     }
     private void Health()
     {
-        health--;
+        //health--;
         healthAmount.text = health.ToString();
-        if (health <= 0)
-        {
+        //if (health <= 0)
+        //{
             aftermath.SetActive(true);
-        }
+        //}
     }
 
     
