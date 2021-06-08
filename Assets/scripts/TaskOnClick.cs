@@ -6,14 +6,16 @@ using UnityEngine.UI;
 
 public class TaskOnClick : MonoBehaviour
 {
+    private Player_Movement player;
     void Start()
     {
+        player = FindObjectOfType<Player_Movement>();
         gameObject.GetComponent<Button>().onClick.AddListener(UpdateScene);
     }
 
     private void UpdateScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("newScene");
     }
 
 }

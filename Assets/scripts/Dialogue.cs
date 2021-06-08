@@ -13,6 +13,7 @@ public class Dialogue : MonoBehaviour
     public bool flag = false;
     public GameObject leftClick;
     public GameObject rightClick;
+    public int drankSaltyWater = 0;
 
     private void Update()
     {
@@ -28,6 +29,7 @@ public class Dialogue : MonoBehaviour
             flag = true;
             leftClick.SetActive(true);
             rightClick.SetActive(false);
+            drankSaltyWater++;
         }
     }
 
