@@ -42,7 +42,7 @@ public class Player_Movement : MonoBehaviour
             }
             if (manager.flag)
             {
-                if (manager.drankSaltyWater == 3)
+                if (manager.drankSaltyWater == 2)
                 {
                     health --;
                     Health();
